@@ -1,0 +1,19 @@
+/**
+ * The fsockopen() function returns a resource identifier if the connection is successful or the Boolean value FALSE if connection couldn’t be established. We’ll use the if else loop to check this out.
+ */
+
+<?php
+if(fsockopen("websistent.com",80))
+{
+print "I can see port 80";
+}
+else
+{
+print "I cannot see port 80";
+}
+?>
+
+/**
+ * You can also replace hostnames with IP addresses in the fsockopen() function.
+ * An important thing is that when the script is unable to open a connection to the specified port it may also issue a PHP Warning message “[26-Nov-2017 10:53:09] PHP Warning:  fsockopen() [<a href=’function.fsockopen’>function.fsockopen</a>]: unable to connect to hostname:80 (Connection timed out) in /path/to/script.php(42) : eval()’d code on line 20”
+ */
