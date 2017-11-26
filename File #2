@@ -1,0 +1,5 @@
+/**
+ * But for this PHP open port check tutorial we’ll use only the first two parameters
+ */
+
+fsockopen(hostname,portno)
