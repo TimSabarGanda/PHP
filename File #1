@@ -1,1 +1,6 @@
+/**
+ *Lets go straight to the syntax of fsockopen(). The complete syntax as shown in the official PHP documentation is
+ */
+
+
 resource fsockopen ( string $hostname [, int $port = -1 [, int &$errno [, string &$errstr [, float $timeout = ini_get("default_socket_timeout") ]]]] )
